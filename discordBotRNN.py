@@ -50,4 +50,4 @@ async def wtemp(ctx):
 	global temp
 	await ctx.send('The temperature is: ' + str(temp))
 
-client.run('NzMxNjQ4NDIwNjExMzU4ODYw.XwpG8w.jSDVbBuUu6IAKwIGNCZPvO5068c')
+client.run('insert bot token hear')
