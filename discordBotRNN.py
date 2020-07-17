@@ -28,7 +28,7 @@ async def speak(ctx):
 
 @client.command()
 async def help(ctx):
-	await ctx.send('>>> `Help Menue: \n.help, opens help menu \n.speak, the bot says stuff \n.temp or .temperature, changes the temperature of the bot (how creative it is). \n\n The temperature is a number.\n For Example, .temp 0.9, changes the temperature to 0.9. \n The lower the temperature of the bot is the less creative it is (copies from the training data) \n The higher the temperature of the bot is the more creative it is (Starts to make up words and sound stupid) \n The temperature range of the bot is 0.1-5.0 \n\n .wtemp, Displays the current temperature.\n The bots code can be found hear: https://github.com/nano38/DiscordRNNBot`')
+	await ctx.send('>>> `Help Menue: \n.help, opens help menu \n.speak, the bot says stuff \n.temp or .temperature, changes the temperature of the bot (how creative it is). \n\n The temperature is a number.\n For Example, .temp 0.9, changes the temperature to 0.9. \n The lower the temperature of the bot is the less creative it is (copies from the training data) \n The higher the temperature of the bot is the more creative it is (Starts to make up words and sound stupid) \n The temperature range of the bot is 0.1-5.0 \n\n .wtemp, Displays the current temperature.\n The bots code can be found here: https://github.com/nano38/DiscordRNNBot`')
 
 @client.command(aliases=['temperature', 'temp'])
 async def _temp(ctx, *, question):
